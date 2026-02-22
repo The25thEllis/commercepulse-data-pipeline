@@ -1,0 +1,2881 @@
+[
+  {
+    "orderRef": "ORD-000812",
+    "refundedAt": "2023-08-03T20:31:17",
+    "amount": 25000,
+    "currency": "NGN",
+    "reason": "damaged",
+    "items": null
+  },
+  {
+    "orderRef": "ORD-000462",
+    "refundedAt": "2023-12-29T19:14:43",
+    "amount": 4000,
+    "currency": "USD",
+    "reason": "customer_request",
+    "items": [
+      {
+        "sku": "SKU-0117",
+        "qty": 1,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000462",
+    "refunded_at": "2023-12-03T21:08:16Z",
+    "refundAmount": 25000,
+    "currencyCode": "NGN",
+    "refund_reason": "customer_request",
+    "refunded_items": null
+  },
+  {
+    "orderRef": "ORD-000154",
+    "refundedAt": "2023-09-15T06:59:19",
+    "amount": 4000,
+    "currency": "NGN",
+    "reason": "customer_request",
+    "items": [
+      {
+        "sku": "SKU-0217",
+        "qty": 1,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000154",
+    "refunded_at": "2023-05-31T17:58:46Z",
+    "refundAmount": 9000,
+    "currencyCode": "NGN",
+    "refund_reason": "late_delivery",
+    "refunded_items": null
+  },
+  {
+    "order_id": "ORD-000074",
+    "refunded_at": "2023-07-12T08:49:14Z",
+    "refundAmount": 4000,
+    "currencyCode": "NGN",
+    "refund_reason": "customer_request",
+    "refunded_items": [
+      {
+        "sku": "SKU-0161",
+        "qty": 2,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "order": "ORD-001171",
+    "ts": 1672772813,
+    "amt": 2500,
+    "ccy": "NGN",
+    "reason": "duplicate",
+    "items_refunded": [
+      {
+        "sku": "SKU-0176",
+        "qty": 2,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000424",
+    "refunded_at": "2023-01-11T13:43:52Z",
+    "refundAmount": 4000,
+    "currencyCode": "NGN",
+    "refund_reason": "customer_request",
+    "refunded_items": [
+      {
+        "sku": "SKU-0107",
+        "qty": 1,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000074",
+    "refunded_at": "2023-11-24T10:06:09Z",
+    "refundAmount": 5000,
+    "currencyCode": "NGN",
+    "refund_reason": "late_delivery",
+    "refunded_items": null
+  },
+  {
+    "orderRef": "ORD-000501",
+    "refundedAt": "2023-12-08T04:04:57",
+    "amount": 12000,
+    "currency": "NGN",
+    "reason": "customer_request",
+    "items": null
+  },
+  {
+    "orderRef": "ORD-000424",
+    "refundedAt": "2023-09-13T08:35:27",
+    "amount": 10500,
+    "currency": "NGN",
+    "reason": "damaged",
+    "items": [
+      {
+        "sku": "SKU-0051",
+        "qty": 1,
+        "amount": 4000
+      },
+      {
+        "sku": "SKU-0014",
+        "qty": 1,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "order": "ORD-000192",
+    "ts": 1700800049,
+    "amt": 5000,
+    "ccy": "NGN",
+    "reason": "late_delivery",
+    "items_refunded": [
+      {
+        "sku": "SKU-0106",
+        "qty": 1,
+        "amount": 2500
+      },
+      {
+        "sku": "SKU-0086",
+        "qty": 1,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "order": "ORD-000462",
+    "ts": 1689894882,
+    "amt": 12000,
+    "ccy": "NGN",
+    "reason": "duplicate",
+    "items_refunded": null
+  },
+  {
+    "order": "ORD-000454",
+    "ts": 1675926209,
+    "amt": 5000,
+    "ccy": "NGN",
+    "reason": "customer_request",
+    "items_refunded": null
+  },
+  {
+    "order": "ORD-000057",
+    "ts": 1682545332,
+    "amt": 8000,
+    "ccy": "NGN",
+    "reason": "duplicate",
+    "items_refunded": [
+      {
+        "sku": "SKU-0124",
+        "qty": 1,
+        "amount": 1500
+      },
+      {
+        "sku": "SKU-0092",
+        "qty": 2,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000249",
+    "refunded_at": "2023-06-01T23:26:50Z",
+    "refundAmount": 4000,
+    "currencyCode": "USD",
+    "refund_reason": "damaged",
+    "refunded_items": [
+      {
+        "sku": "SKU-0057",
+        "qty": 2,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "order": "ORD-001047",
+    "ts": 1695197857,
+    "amt": 18000,
+    "ccy": "USD",
+    "reason": "damaged",
+    "items_refunded": null
+  },
+  {
+    "orderRef": "ORD-000331",
+    "refundedAt": "2023-02-07T22:26:54",
+    "amount": 2500,
+    "currency": "NGN",
+    "reason": "customer_request",
+    "items": [
+      {
+        "sku": "SKU-0035",
+        "qty": 1,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000195",
+    "refunded_at": "2023-05-16T04:07:38Z",
+    "refundAmount": 1500,
+    "currencyCode": "NGN",
+    "refund_reason": "late_delivery",
+    "refunded_items": [
+      {
+        "sku": "SKU-0103",
+        "qty": 1,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000715",
+    "refundedAt": "2023-06-27T06:18:19",
+    "amount": 25000,
+    "currency": "NGN",
+    "reason": "duplicate",
+    "items": null
+  },
+  {
+    "order_id": "ORD-000799",
+    "refunded_at": "2023-07-03T18:10:28Z",
+    "refundAmount": 12000,
+    "currencyCode": "NGN",
+    "refund_reason": "late_delivery",
+    "refunded_items": null
+  },
+  {
+    "order_id": "ORD-000193",
+    "refunded_at": "2023-09-09T11:09:55Z",
+    "refundAmount": 10500,
+    "currencyCode": "NGN",
+    "refund_reason": "duplicate",
+    "refunded_items": [
+      {
+        "sku": "SKU-0050",
+        "qty": 2,
+        "amount": 4000
+      },
+      {
+        "sku": "SKU-0187",
+        "qty": 2,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000021",
+    "refundedAt": "2023-12-11T23:12:36",
+    "amount": 9000,
+    "currency": "NGN",
+    "reason": "damaged",
+    "items": [
+      {
+        "sku": "SKU-0020",
+        "qty": 1,
+        "amount": 6500
+      },
+      {
+        "sku": "SKU-0007",
+        "qty": 2,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-001000",
+    "refunded_at": "2023-10-20T01:53:55Z",
+    "refundAmount": 1500,
+    "currencyCode": "NGN",
+    "refund_reason": "late_delivery",
+    "refunded_items": [
+      {
+        "sku": "SKU-0184",
+        "qty": 2,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000606",
+    "refunded_at": "2023-03-26T14:48:55Z",
+    "refundAmount": 3000,
+    "currencyCode": "NGN",
+    "refund_reason": "late_delivery",
+    "refunded_items": [
+      {
+        "sku": "SKU-0090",
+        "qty": 1,
+        "amount": 1500
+      },
+      {
+        "sku": "SKU-0003",
+        "qty": 1,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-001194",
+    "refunded_at": "2023-04-29T10:54:01Z",
+    "refundAmount": 5000,
+    "currencyCode": "USD",
+    "refund_reason": "late_delivery",
+    "refunded_items": [
+      {
+        "sku": "SKU-0065",
+        "qty": 2,
+        "amount": 2500
+      },
+      {
+        "sku": "SKU-0034",
+        "qty": 2,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000191",
+    "refundedAt": "2023-11-01T05:07:04",
+    "amount": 9000,
+    "currency": "NGN",
+    "reason": "damaged",
+    "items": null
+  },
+  {
+    "orderRef": "ORD-000663",
+    "refundedAt": "2023-09-08T11:37:30",
+    "amount": 4000,
+    "currency": "NGN",
+    "reason": "late_delivery",
+    "items": [
+      {
+        "sku": "SKU-0170",
+        "qty": 2,
+        "amount": 1500
+      },
+      {
+        "sku": "SKU-0076",
+        "qty": 1,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000013",
+    "refunded_at": "2023-04-25T19:12:25Z",
+    "refundAmount": 8000,
+    "currencyCode": "NGN",
+    "refund_reason": "damaged",
+    "refunded_items": [
+      {
+        "sku": "SKU-0003",
+        "qty": 1,
+        "amount": 4000
+      },
+      {
+        "sku": "SKU-0042",
+        "qty": 1,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "order": "ORD-000415",
+    "ts": 1694624078,
+    "amt": 2500,
+    "ccy": "NGN",
+    "reason": "duplicate",
+    "items_refunded": [
+      {
+        "sku": "SKU-0115",
+        "qty": 2,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-001119",
+    "refundedAt": "2023-12-19T10:20:03",
+    "amount": 5000,
+    "currency": "NGN",
+    "reason": "late_delivery",
+    "items": null
+  },
+  {
+    "order_id": "ORD-000758",
+    "refunded_at": "2023-09-21T16:26:04Z",
+    "refundAmount": 5500,
+    "currencyCode": "NGN",
+    "refund_reason": "late_delivery",
+    "refunded_items": [
+      {
+        "sku": "SKU-0157",
+        "qty": 2,
+        "amount": 4000
+      },
+      {
+        "sku": "SKU-0009",
+        "qty": 1,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "order": "ORD-000385",
+    "ts": 1679381875,
+    "amt": 8000,
+    "ccy": "NGN",
+    "reason": "damaged",
+    "items_refunded": [
+      {
+        "sku": "SKU-0158",
+        "qty": 1,
+        "amount": 1500
+      },
+      {
+        "sku": "SKU-0161",
+        "qty": 1,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000889",
+    "refundedAt": "2023-02-23T01:22:17",
+    "amount": 18000,
+    "currency": "NGN",
+    "reason": "damaged",
+    "items": null
+  },
+  {
+    "order_id": "ORD-000792",
+    "refunded_at": "2023-10-07T22:50:00Z",
+    "refundAmount": 6500,
+    "currencyCode": "USD",
+    "refund_reason": "damaged",
+    "refunded_items": [
+      {
+        "sku": "SKU-0096",
+        "qty": 2,
+        "amount": 4000
+      },
+      {
+        "sku": "SKU-0066",
+        "qty": 2,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "order": "ORD-000098",
+    "ts": 1681305126,
+    "amt": 5000,
+    "ccy": "NGN",
+    "reason": "damaged",
+    "items_refunded": null
+  },
+  {
+    "order": "ORD-000508",
+    "ts": 1692004485,
+    "amt": 5000,
+    "ccy": "NGN",
+    "reason": "duplicate",
+    "items_refunded": null
+  },
+  {
+    "order_id": "ORD-001054",
+    "refunded_at": "2023-02-16T12:40:23Z",
+    "refundAmount": 6500,
+    "currencyCode": "NGN",
+    "refund_reason": "damaged",
+    "refunded_items": [
+      {
+        "sku": "SKU-0195",
+        "qty": 1,
+        "amount": 4000
+      },
+      {
+        "sku": "SKU-0213",
+        "qty": 1,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000684",
+    "refundedAt": "2023-01-05T08:27:13",
+    "amount": 5500,
+    "currency": "USD",
+    "reason": "duplicate",
+    "items": [
+      {
+        "sku": "SKU-0086",
+        "qty": 1,
+        "amount": 1500
+      },
+      {
+        "sku": "SKU-0213",
+        "qty": 1,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-001086",
+    "refundedAt": "2023-11-11T07:25:20",
+    "amount": 5000,
+    "currency": "USD",
+    "reason": "damaged",
+    "items": null
+  },
+  {
+    "orderRef": "ORD-000399",
+    "refundedAt": "2023-06-18T04:26:50",
+    "amount": 2500,
+    "currency": "NGN",
+    "reason": "damaged",
+    "items": [
+      {
+        "sku": "SKU-0207",
+        "qty": 1,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000039",
+    "refundedAt": "2023-10-14T11:08:07",
+    "amount": 5500,
+    "currency": "NGN",
+    "reason": "customer_request",
+    "items": [
+      {
+        "sku": "SKU-0151",
+        "qty": 1,
+        "amount": 1500
+      },
+      {
+        "sku": "SKU-0036",
+        "qty": 1,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-001003",
+    "refundedAt": "2023-08-13T17:18:40",
+    "amount": 5500,
+    "currency": "NGN",
+    "reason": "late_delivery",
+    "items": [
+      {
+        "sku": "SKU-0075",
+        "qty": 2,
+        "amount": 4000
+      },
+      {
+        "sku": "SKU-0194",
+        "qty": 2,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000239",
+    "refunded_at": "2023-04-07T00:23:05Z",
+    "refundAmount": 6500,
+    "currencyCode": "NGN",
+    "refund_reason": "damaged",
+    "refunded_items": [
+      {
+        "sku": "SKU-0053",
+        "qty": 2,
+        "amount": 2500
+      },
+      {
+        "sku": "SKU-0141",
+        "qty": 1,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000847",
+    "refunded_at": "2023-06-14T21:39:28Z",
+    "refundAmount": 18000,
+    "currencyCode": "NGN",
+    "refund_reason": "duplicate",
+    "refunded_items": null
+  },
+  {
+    "order_id": "ORD-001154",
+    "refunded_at": "2023-03-11T22:14:50Z",
+    "refundAmount": 18000,
+    "currencyCode": "NGN",
+    "refund_reason": "duplicate",
+    "refunded_items": null
+  },
+  {
+    "order_id": "ORD-000343",
+    "refunded_at": "2023-03-30T16:29:15Z",
+    "refundAmount": 4000,
+    "currencyCode": "NGN",
+    "refund_reason": "late_delivery",
+    "refunded_items": [
+      {
+        "sku": "SKU-0146",
+        "qty": 1,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000831",
+    "refunded_at": "2023-09-23T08:13:53Z",
+    "refundAmount": 12000,
+    "currencyCode": "NGN",
+    "refund_reason": "customer_request",
+    "refunded_items": null
+  },
+  {
+    "order_id": "ORD-000479",
+    "refunded_at": "2023-03-16T06:03:01Z",
+    "refundAmount": 6500,
+    "currencyCode": "NGN",
+    "refund_reason": "customer_request",
+    "refunded_items": [
+      {
+        "sku": "SKU-0038",
+        "qty": 2,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000884",
+    "refundedAt": "2023-12-29T04:31:49",
+    "amount": 6500,
+    "currency": "NGN",
+    "reason": "customer_request",
+    "items": [
+      {
+        "sku": "SKU-0149",
+        "qty": 1,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "order": "ORD-000328",
+    "ts": 1681524665,
+    "amt": 2500,
+    "ccy": "NGN",
+    "reason": "late_delivery",
+    "items_refunded": [
+      {
+        "sku": "SKU-0113",
+        "qty": 2,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "order": "ORD-000511",
+    "ts": 1674049844,
+    "amt": 9000,
+    "ccy": "USD",
+    "reason": "customer_request",
+    "items_refunded": [
+      {
+        "sku": "SKU-0049",
+        "qty": 1,
+        "amount": 2500
+      },
+      {
+        "sku": "SKU-0073",
+        "qty": 2,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "order": "ORD-000896",
+    "ts": 1691373280,
+    "amt": 6500,
+    "ccy": "NGN",
+    "reason": "late_delivery",
+    "items_refunded": [
+      {
+        "sku": "SKU-0189",
+        "qty": 2,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000350",
+    "refundedAt": "2023-06-22T21:53:01",
+    "amount": 5500,
+    "currency": "NGN",
+    "reason": "damaged",
+    "items": [
+      {
+        "sku": "SKU-0202",
+        "qty": 1,
+        "amount": 4000
+      },
+      {
+        "sku": "SKU-0192",
+        "qty": 2,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000663",
+    "refunded_at": "2023-11-05T03:58:12Z",
+    "refundAmount": 18000,
+    "currencyCode": "NGN",
+    "refund_reason": "duplicate",
+    "refunded_items": null
+  },
+  {
+    "order": "ORD-000132",
+    "ts": 1675809902,
+    "amt": 12000,
+    "ccy": "NGN",
+    "reason": "duplicate",
+    "items_refunded": null
+  },
+  {
+    "order_id": "ORD-000829",
+    "refunded_at": "2023-03-31T20:45:01Z",
+    "refundAmount": 2500,
+    "currencyCode": "NGN",
+    "refund_reason": "duplicate",
+    "refunded_items": [
+      {
+        "sku": "SKU-0139",
+        "qty": 2,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000093",
+    "refundedAt": "2023-04-26T19:32:54",
+    "amount": 6500,
+    "currency": "NGN",
+    "reason": "customer_request",
+    "items": [
+      {
+        "sku": "SKU-0103",
+        "qty": 2,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "order": "ORD-001064",
+    "ts": 1674116295,
+    "amt": 12000,
+    "ccy": "NGN",
+    "reason": "customer_request",
+    "items_refunded": null
+  },
+  {
+    "order": "ORD-001041",
+    "ts": 1693362494,
+    "amt": 6500,
+    "ccy": "USD",
+    "reason": "duplicate",
+    "items_refunded": [
+      {
+        "sku": "SKU-0072",
+        "qty": 2,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "order": "ORD-001139",
+    "ts": 1698762329,
+    "amt": 1500,
+    "ccy": "NGN",
+    "reason": "late_delivery",
+    "items_refunded": [
+      {
+        "sku": "SKU-0067",
+        "qty": 2,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000446",
+    "refunded_at": "2023-11-21T02:05:31Z",
+    "refundAmount": 1500,
+    "currencyCode": "NGN",
+    "refund_reason": "duplicate",
+    "refunded_items": [
+      {
+        "sku": "SKU-0176",
+        "qty": 1,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000925",
+    "refundedAt": "2023-10-24T08:44:19",
+    "amount": 1500,
+    "currency": "NGN",
+    "reason": "duplicate",
+    "items": [
+      {
+        "sku": "SKU-0078",
+        "qty": 2,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "order": "ORD-000007",
+    "ts": 1690135775,
+    "amt": 25000,
+    "ccy": "NGN",
+    "reason": "customer_request",
+    "items_refunded": null
+  },
+  {
+    "order_id": "ORD-000166",
+    "refunded_at": "2023-04-22T03:50:31Z",
+    "refundAmount": 2500,
+    "currencyCode": "NGN",
+    "refund_reason": "late_delivery",
+    "refunded_items": [
+      {
+        "sku": "SKU-0185",
+        "qty": 2,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-001137",
+    "refundedAt": "2023-03-21T00:25:47",
+    "amount": 18000,
+    "currency": "USD",
+    "reason": "duplicate",
+    "items": null
+  },
+  {
+    "order": "ORD-000331",
+    "ts": 1688885034,
+    "amt": 5000,
+    "ccy": "NGN",
+    "reason": "customer_request",
+    "items_refunded": null
+  },
+  {
+    "order_id": "ORD-000746",
+    "refunded_at": "2023-12-15T18:38:51Z",
+    "refundAmount": 3000,
+    "currencyCode": "NGN",
+    "refund_reason": "duplicate",
+    "refunded_items": [
+      {
+        "sku": "SKU-0176",
+        "qty": 1,
+        "amount": 1500
+      },
+      {
+        "sku": "SKU-0128",
+        "qty": 1,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000815",
+    "refunded_at": "2023-01-25T15:29:12Z",
+    "refundAmount": 1500,
+    "currencyCode": "NGN",
+    "refund_reason": "late_delivery",
+    "refunded_items": [
+      {
+        "sku": "SKU-0128",
+        "qty": 2,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-001068",
+    "refunded_at": "2023-06-06T18:25:31Z",
+    "refundAmount": 6500,
+    "currencyCode": "NGN",
+    "refund_reason": "customer_request",
+    "refunded_items": [
+      {
+        "sku": "SKU-0153",
+        "qty": 2,
+        "amount": 2500
+      },
+      {
+        "sku": "SKU-0003",
+        "qty": 2,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000008",
+    "refunded_at": "2023-09-27T20:19:34Z",
+    "refundAmount": 9000,
+    "currencyCode": "NGN",
+    "refund_reason": "duplicate",
+    "refunded_items": [
+      {
+        "sku": "SKU-0123",
+        "qty": 1,
+        "amount": 2500
+      },
+      {
+        "sku": "SKU-0137",
+        "qty": 1,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-001107",
+    "refunded_at": "2023-12-18T17:48:15Z",
+    "refundAmount": 5000,
+    "currencyCode": "NGN",
+    "refund_reason": "duplicate",
+    "refunded_items": null
+  },
+  {
+    "order_id": "ORD-000377",
+    "refunded_at": "2023-09-08T23:28:03Z",
+    "refundAmount": 18000,
+    "currencyCode": "NGN",
+    "refund_reason": "damaged",
+    "refunded_items": null
+  },
+  {
+    "order": "ORD-000512",
+    "ts": 1683157947,
+    "amt": 1500,
+    "ccy": "NGN",
+    "reason": "late_delivery",
+    "items_refunded": [
+      {
+        "sku": "SKU-0062",
+        "qty": 1,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "order": "ORD-000343",
+    "ts": 1682614712,
+    "amt": 5000,
+    "ccy": "NGN",
+    "reason": "damaged",
+    "items_refunded": null
+  },
+  {
+    "order": "ORD-000885",
+    "ts": 1700430180,
+    "amt": 9000,
+    "ccy": "NGN",
+    "reason": "customer_request",
+    "items_refunded": null
+  },
+  {
+    "order_id": "ORD-000797",
+    "refunded_at": "2023-08-03T14:03:05Z",
+    "refundAmount": 3000,
+    "currencyCode": "NGN",
+    "refund_reason": "duplicate",
+    "refunded_items": [
+      {
+        "sku": "SKU-0098",
+        "qty": 1,
+        "amount": 1500
+      },
+      {
+        "sku": "SKU-0125",
+        "qty": 2,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-001150",
+    "refundedAt": "2023-04-10T03:47:07",
+    "amount": 6500,
+    "currency": "NGN",
+    "reason": "duplicate",
+    "items": [
+      {
+        "sku": "SKU-0009",
+        "qty": 1,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "order": "ORD-000584",
+    "ts": 1687511073,
+    "amt": 6500,
+    "ccy": "NGN",
+    "reason": "customer_request",
+    "items_refunded": [
+      {
+        "sku": "SKU-0054",
+        "qty": 2,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000983",
+    "refundedAt": "2023-11-08T20:21:22",
+    "amount": 18000,
+    "currency": "NGN",
+    "reason": "late_delivery",
+    "items": null
+  },
+  {
+    "order": "ORD-000052",
+    "ts": 1686490342,
+    "amt": 12000,
+    "ccy": "NGN",
+    "reason": "customer_request",
+    "items_refunded": null
+  },
+  {
+    "order_id": "ORD-000492",
+    "refunded_at": "2023-08-05T10:42:31Z",
+    "refundAmount": 18000,
+    "currencyCode": "NGN",
+    "refund_reason": "damaged",
+    "refunded_items": null
+  },
+  {
+    "order_id": "ORD-000972",
+    "refunded_at": "2023-01-29T21:57:08Z",
+    "refundAmount": 12000,
+    "currencyCode": "NGN",
+    "refund_reason": "duplicate",
+    "refunded_items": null
+  },
+  {
+    "order_id": "ORD-000851",
+    "refunded_at": "2023-12-28T18:06:37Z",
+    "refundAmount": 18000,
+    "currencyCode": "NGN",
+    "refund_reason": "damaged",
+    "refunded_items": null
+  },
+  {
+    "orderRef": "ORD-000853",
+    "refundedAt": "2023-12-18T22:20:03",
+    "amount": 9000,
+    "currency": "NGN",
+    "reason": "damaged",
+    "items": null
+  },
+  {
+    "order_id": "ORD-000987",
+    "refunded_at": "2023-07-07T01:23:43Z",
+    "refundAmount": 12000,
+    "currencyCode": "NGN",
+    "refund_reason": "duplicate",
+    "refunded_items": null
+  },
+  {
+    "order_id": "ORD-000567",
+    "refunded_at": "2023-07-16T03:53:13Z",
+    "refundAmount": 4000,
+    "currencyCode": "NGN",
+    "refund_reason": "duplicate",
+    "refunded_items": [
+      {
+        "sku": "SKU-0112",
+        "qty": 2,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "order": "ORD-000390",
+    "ts": 1702283525,
+    "amt": 9000,
+    "ccy": "NGN",
+    "reason": "damaged",
+    "items_refunded": null
+  },
+  {
+    "order_id": "ORD-000547",
+    "refunded_at": "2023-01-02T16:30:48Z",
+    "refundAmount": 9000,
+    "currencyCode": "NGN",
+    "refund_reason": "duplicate",
+    "refunded_items": [
+      {
+        "sku": "SKU-0127",
+        "qty": 1,
+        "amount": 2500
+      },
+      {
+        "sku": "SKU-0163",
+        "qty": 1,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "order": "ORD-000682",
+    "ts": 1691167038,
+    "amt": 9000,
+    "ccy": "NGN",
+    "reason": "duplicate",
+    "items_refunded": [
+      {
+        "sku": "SKU-0194",
+        "qty": 1,
+        "amount": 2500
+      },
+      {
+        "sku": "SKU-0027",
+        "qty": 2,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "order": "ORD-000332",
+    "ts": 1682320792,
+    "amt": 6500,
+    "ccy": "NGN",
+    "reason": "damaged",
+    "items_refunded": [
+      {
+        "sku": "SKU-0077",
+        "qty": 1,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "order": "ORD-000185",
+    "ts": 1677791328,
+    "amt": 4000,
+    "ccy": "NGN",
+    "reason": "damaged",
+    "items_refunded": [
+      {
+        "sku": "SKU-0131",
+        "qty": 2,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000247",
+    "refundedAt": "2023-07-23T12:07:13",
+    "amount": 5000,
+    "currency": "NGN",
+    "reason": "duplicate",
+    "items": [
+      {
+        "sku": "SKU-0000",
+        "qty": 1,
+        "amount": 2500
+      },
+      {
+        "sku": "SKU-0126",
+        "qty": 1,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000623",
+    "refundedAt": "2023-03-06T15:35:38",
+    "amount": 25000,
+    "currency": "NGN",
+    "reason": "damaged",
+    "items": null
+  },
+  {
+    "order_id": "ORD-000372",
+    "refunded_at": "2023-12-17T05:11:23Z",
+    "refundAmount": 10500,
+    "currencyCode": "NGN",
+    "refund_reason": "damaged",
+    "refunded_items": [
+      {
+        "sku": "SKU-0095",
+        "qty": 2,
+        "amount": 4000
+      },
+      {
+        "sku": "SKU-0114",
+        "qty": 2,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-001068",
+    "refunded_at": "2023-03-24T09:44:18Z",
+    "refundAmount": 5000,
+    "currencyCode": "NGN",
+    "refund_reason": "late_delivery",
+    "refunded_items": null
+  },
+  {
+    "order_id": "ORD-000007",
+    "refunded_at": "2023-06-03T03:05:21Z",
+    "refundAmount": 8000,
+    "currencyCode": "NGN",
+    "refund_reason": "customer_request",
+    "refunded_items": [
+      {
+        "sku": "SKU-0122",
+        "qty": 2,
+        "amount": 1500
+      },
+      {
+        "sku": "SKU-0053",
+        "qty": 1,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "order": "ORD-000059",
+    "ts": 1687012960,
+    "amt": 18000,
+    "ccy": "NGN",
+    "reason": "customer_request",
+    "items_refunded": null
+  },
+  {
+    "orderRef": "ORD-000703",
+    "refundedAt": "2023-01-31T19:00:11",
+    "amount": 4000,
+    "currency": "NGN",
+    "reason": "late_delivery",
+    "items": [
+      {
+        "sku": "SKU-0075",
+        "qty": 2,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "order": "ORD-000949",
+    "ts": 1692323992,
+    "amt": 6500,
+    "ccy": "NGN",
+    "reason": "damaged",
+    "items_refunded": [
+      {
+        "sku": "SKU-0058",
+        "qty": 2,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000939",
+    "refunded_at": "2023-11-25T22:12:44Z",
+    "refundAmount": 5000,
+    "currencyCode": "NGN",
+    "refund_reason": "late_delivery",
+    "refunded_items": null
+  },
+  {
+    "orderRef": "ORD-001140",
+    "refundedAt": "2023-04-15T04:56:26",
+    "amount": 5000,
+    "currency": "NGN",
+    "reason": "damaged",
+    "items": null
+  },
+  {
+    "orderRef": "ORD-000399",
+    "refundedAt": "2023-12-05T06:59:24",
+    "amount": 8000,
+    "currency": "NGN",
+    "reason": "customer_request",
+    "items": [
+      {
+        "sku": "SKU-0155",
+        "qty": 2,
+        "amount": 6500
+      },
+      {
+        "sku": "SKU-0180",
+        "qty": 2,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-001053",
+    "refunded_at": "2023-10-22T07:11:35Z",
+    "refundAmount": 5000,
+    "currencyCode": "NGN",
+    "refund_reason": "damaged",
+    "refunded_items": [
+      {
+        "sku": "SKU-0027",
+        "qty": 1,
+        "amount": 2500
+      },
+      {
+        "sku": "SKU-0074",
+        "qty": 2,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-001079",
+    "refunded_at": "2023-04-12T00:19:02Z",
+    "refundAmount": 9000,
+    "currencyCode": "NGN",
+    "refund_reason": "duplicate",
+    "refunded_items": [
+      {
+        "sku": "SKU-0030",
+        "qty": 1,
+        "amount": 6500
+      },
+      {
+        "sku": "SKU-0144",
+        "qty": 1,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000427",
+    "refundedAt": "2023-08-22T06:33:42",
+    "amount": 9000,
+    "currency": "NGN",
+    "reason": "customer_request",
+    "items": null
+  },
+  {
+    "orderRef": "ORD-000335",
+    "refundedAt": "2023-11-04T05:24:07",
+    "amount": 8000,
+    "currency": "USD",
+    "reason": "duplicate",
+    "items": [
+      {
+        "sku": "SKU-0084",
+        "qty": 2,
+        "amount": 1500
+      },
+      {
+        "sku": "SKU-0212",
+        "qty": 1,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000702",
+    "refunded_at": "2023-05-31T10:28:19Z",
+    "refundAmount": 25000,
+    "currencyCode": "NGN",
+    "refund_reason": "late_delivery",
+    "refunded_items": null
+  },
+  {
+    "orderRef": "ORD-000269",
+    "refundedAt": "2023-01-23T07:01:03",
+    "amount": 10500,
+    "currency": "NGN",
+    "reason": "customer_request",
+    "items": [
+      {
+        "sku": "SKU-0089",
+        "qty": 1,
+        "amount": 6500
+      },
+      {
+        "sku": "SKU-0114",
+        "qty": 1,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000108",
+    "refunded_at": "2023-02-08T11:09:11Z",
+    "refundAmount": 5000,
+    "currencyCode": "NGN",
+    "refund_reason": "damaged",
+    "refunded_items": [
+      {
+        "sku": "SKU-0097",
+        "qty": 2,
+        "amount": 2500
+      },
+      {
+        "sku": "SKU-0124",
+        "qty": 1,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000785",
+    "refunded_at": "2023-03-26T17:02:29Z",
+    "refundAmount": 3000,
+    "currencyCode": "NGN",
+    "refund_reason": "damaged",
+    "refunded_items": [
+      {
+        "sku": "SKU-0080",
+        "qty": 2,
+        "amount": 1500
+      },
+      {
+        "sku": "SKU-0084",
+        "qty": 1,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000686",
+    "refunded_at": "2023-09-18T05:00:05Z",
+    "refundAmount": 13000,
+    "currencyCode": "NGN",
+    "refund_reason": "damaged",
+    "refunded_items": [
+      {
+        "sku": "SKU-0076",
+        "qty": 1,
+        "amount": 6500
+      },
+      {
+        "sku": "SKU-0052",
+        "qty": 2,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000248",
+    "refundedAt": "2023-09-20T04:18:16",
+    "amount": 8000,
+    "currency": "NGN",
+    "reason": "duplicate",
+    "items": [
+      {
+        "sku": "SKU-0215",
+        "qty": 2,
+        "amount": 1500
+      },
+      {
+        "sku": "SKU-0129",
+        "qty": 2,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-001157",
+    "refundedAt": "2023-04-26T08:24:31",
+    "amount": 5500,
+    "currency": "NGN",
+    "reason": "damaged",
+    "items": [
+      {
+        "sku": "SKU-0149",
+        "qty": 2,
+        "amount": 1500
+      },
+      {
+        "sku": "SKU-0009",
+        "qty": 2,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000956",
+    "refunded_at": "2023-03-14T08:02:50Z",
+    "refundAmount": 9000,
+    "currencyCode": "NGN",
+    "refund_reason": "customer_request",
+    "refunded_items": [
+      {
+        "sku": "SKU-0076",
+        "qty": 2,
+        "amount": 2500
+      },
+      {
+        "sku": "SKU-0069",
+        "qty": 2,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "order": "ORD-000125",
+    "ts": 1683739918,
+    "amt": 4000,
+    "ccy": "NGN",
+    "reason": "customer_request",
+    "items_refunded": [
+      {
+        "sku": "SKU-0140",
+        "qty": 2,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000935",
+    "refunded_at": "2023-02-05T02:17:01Z",
+    "refundAmount": 5000,
+    "currencyCode": "NGN",
+    "refund_reason": "damaged",
+    "refunded_items": null
+  },
+  {
+    "orderRef": "ORD-000782",
+    "refundedAt": "2023-04-03T21:49:11",
+    "amount": 6500,
+    "currency": "NGN",
+    "reason": "customer_request",
+    "items": [
+      {
+        "sku": "SKU-0058",
+        "qty": 2,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "order": "ORD-000039",
+    "ts": 1694414534,
+    "amt": 18000,
+    "ccy": "NGN",
+    "reason": "late_delivery",
+    "items_refunded": null
+  },
+  {
+    "order": "ORD-000001",
+    "ts": 1688291445,
+    "amt": 4000,
+    "ccy": "NGN",
+    "reason": "late_delivery",
+    "items_refunded": [
+      {
+        "sku": "SKU-0214",
+        "qty": 1,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "order": "ORD-000926",
+    "ts": 1703747860,
+    "amt": 12000,
+    "ccy": "USD",
+    "reason": "late_delivery",
+    "items_refunded": null
+  },
+  {
+    "orderRef": "ORD-000502",
+    "refundedAt": "2023-10-24T08:21:55",
+    "amount": 5000,
+    "currency": "NGN",
+    "reason": "late_delivery",
+    "items": null
+  },
+  {
+    "order_id": "ORD-000372",
+    "refunded_at": "2023-06-07T19:47:28Z",
+    "refundAmount": 25000,
+    "currencyCode": "NGN",
+    "refund_reason": "late_delivery",
+    "refunded_items": null
+  },
+  {
+    "order_id": "ORD-000144",
+    "refunded_at": "2023-12-17T07:35:24Z",
+    "refundAmount": 5000,
+    "currencyCode": "NGN",
+    "refund_reason": "duplicate",
+    "refunded_items": [
+      {
+        "sku": "SKU-0053",
+        "qty": 1,
+        "amount": 2500
+      },
+      {
+        "sku": "SKU-0202",
+        "qty": 1,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000840",
+    "refundedAt": "2023-04-28T16:35:44",
+    "amount": 18000,
+    "currency": "NGN",
+    "reason": "damaged",
+    "items": null
+  },
+  {
+    "order": "ORD-000056",
+    "ts": 1681015929,
+    "amt": 4000,
+    "ccy": "NGN",
+    "reason": "late_delivery",
+    "items_refunded": [
+      {
+        "sku": "SKU-0145",
+        "qty": 2,
+        "amount": 1500
+      },
+      {
+        "sku": "SKU-0124",
+        "qty": 2,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000609",
+    "refunded_at": "2023-11-08T19:12:20Z",
+    "refundAmount": 8000,
+    "currencyCode": "NGN",
+    "refund_reason": "duplicate",
+    "refunded_items": [
+      {
+        "sku": "SKU-0073",
+        "qty": 1,
+        "amount": 1500
+      },
+      {
+        "sku": "SKU-0026",
+        "qty": 2,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "order": "ORD-000100",
+    "ts": 1694413704,
+    "amt": 4000,
+    "ccy": "NGN",
+    "reason": "duplicate",
+    "items_refunded": [
+      {
+        "sku": "SKU-0135",
+        "qty": 1,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-001091",
+    "refundedAt": "2023-12-23T04:12:23",
+    "amount": 4000,
+    "currency": "NGN",
+    "reason": "duplicate",
+    "items": [
+      {
+        "sku": "SKU-0210",
+        "qty": 1,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000790",
+    "refunded_at": "2023-01-11T01:14:58Z",
+    "refundAmount": 4000,
+    "currencyCode": "NGN",
+    "refund_reason": "duplicate",
+    "refunded_items": [
+      {
+        "sku": "SKU-0158",
+        "qty": 1,
+        "amount": 1500
+      },
+      {
+        "sku": "SKU-0107",
+        "qty": 1,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000386",
+    "refundedAt": "2023-11-02T02:38:30",
+    "amount": 12000,
+    "currency": "NGN",
+    "reason": "customer_request",
+    "items": null
+  },
+  {
+    "orderRef": "ORD-000558",
+    "refundedAt": "2023-12-27T08:12:27",
+    "amount": 13000,
+    "currency": "NGN",
+    "reason": "customer_request",
+    "items": [
+      {
+        "sku": "SKU-0177",
+        "qty": 1,
+        "amount": 6500
+      },
+      {
+        "sku": "SKU-0205",
+        "qty": 2,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000358",
+    "refunded_at": "2023-06-24T09:35:24Z",
+    "refundAmount": 25000,
+    "currencyCode": "NGN",
+    "refund_reason": "duplicate",
+    "refunded_items": null
+  },
+  {
+    "orderRef": "ORD-000495",
+    "refundedAt": "2023-04-03T19:51:20",
+    "amount": 25000,
+    "currency": "NGN",
+    "reason": "damaged",
+    "items": null
+  },
+  {
+    "orderRef": "ORD-000317",
+    "refundedAt": "2023-02-06T09:09:09",
+    "amount": 12000,
+    "currency": "NGN",
+    "reason": "late_delivery",
+    "items": null
+  },
+  {
+    "order_id": "ORD-000807",
+    "refunded_at": "2023-02-02T14:41:45Z",
+    "refundAmount": 1500,
+    "currencyCode": "NGN",
+    "refund_reason": "late_delivery",
+    "refunded_items": [
+      {
+        "sku": "SKU-0147",
+        "qty": 2,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000577",
+    "refundedAt": "2023-01-06T09:27:44",
+    "amount": 2500,
+    "currency": "NGN",
+    "reason": "duplicate",
+    "items": [
+      {
+        "sku": "SKU-0162",
+        "qty": 2,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000836",
+    "refunded_at": "2023-11-17T22:27:34Z",
+    "refundAmount": 5500,
+    "currencyCode": "NGN",
+    "refund_reason": "duplicate",
+    "refunded_items": [
+      {
+        "sku": "SKU-0094",
+        "qty": 2,
+        "amount": 4000
+      },
+      {
+        "sku": "SKU-0179",
+        "qty": 2,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000127",
+    "refundedAt": "2023-10-23T11:34:37",
+    "amount": 18000,
+    "currency": "NGN",
+    "reason": "late_delivery",
+    "items": null
+  },
+  {
+    "order_id": "ORD-000356",
+    "refunded_at": "2023-04-12T02:15:27Z",
+    "refundAmount": 4000,
+    "currencyCode": "NGN",
+    "refund_reason": "duplicate",
+    "refunded_items": [
+      {
+        "sku": "SKU-0180",
+        "qty": 1,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000684",
+    "refundedAt": "2023-05-12T21:46:18",
+    "amount": 9000,
+    "currency": "NGN",
+    "reason": "damaged",
+    "items": null
+  },
+  {
+    "orderRef": "ORD-000881",
+    "refundedAt": "2023-11-19T02:34:10",
+    "amount": 18000,
+    "currency": "NGN",
+    "reason": "customer_request",
+    "items": null
+  },
+  {
+    "order": "ORD-001017",
+    "ts": 1689683661,
+    "amt": 5500,
+    "ccy": "NGN",
+    "reason": "customer_request",
+    "items_refunded": [
+      {
+        "sku": "SKU-0182",
+        "qty": 2,
+        "amount": 1500
+      },
+      {
+        "sku": "SKU-0116",
+        "qty": 1,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "order": "ORD-000949",
+    "ts": 1681698574,
+    "amt": 12000,
+    "ccy": "NGN",
+    "reason": "customer_request",
+    "items_refunded": null
+  },
+  {
+    "order": "ORD-000767",
+    "ts": 1701956337,
+    "amt": 10500,
+    "ccy": "USD",
+    "reason": "damaged",
+    "items_refunded": [
+      {
+        "sku": "SKU-0013",
+        "qty": 2,
+        "amount": 4000
+      },
+      {
+        "sku": "SKU-0194",
+        "qty": 2,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000160",
+    "refundedAt": "2023-01-24T02:10:26",
+    "amount": 13000,
+    "currency": "NGN",
+    "reason": "duplicate",
+    "items": [
+      {
+        "sku": "SKU-0027",
+        "qty": 2,
+        "amount": 6500
+      },
+      {
+        "sku": "SKU-0024",
+        "qty": 1,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000673",
+    "refundedAt": "2023-11-04T01:36:44",
+    "amount": 6500,
+    "currency": "NGN",
+    "reason": "customer_request",
+    "items": [
+      {
+        "sku": "SKU-0096",
+        "qty": 1,
+        "amount": 4000
+      },
+      {
+        "sku": "SKU-0079",
+        "qty": 2,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000657",
+    "refunded_at": "2023-09-19T06:35:23Z",
+    "refundAmount": 1500,
+    "currencyCode": "NGN",
+    "refund_reason": "damaged",
+    "refunded_items": [
+      {
+        "sku": "SKU-0199",
+        "qty": 1,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000098",
+    "refunded_at": "2023-08-06T13:27:02Z",
+    "refundAmount": 5500,
+    "currencyCode": "NGN",
+    "refund_reason": "duplicate",
+    "refunded_items": [
+      {
+        "sku": "SKU-0175",
+        "qty": 1,
+        "amount": 1500
+      },
+      {
+        "sku": "SKU-0048",
+        "qty": 1,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "order": "ORD-000382",
+    "ts": 1693427398,
+    "amt": 4000,
+    "ccy": "NGN",
+    "reason": "damaged",
+    "items_refunded": [
+      {
+        "sku": "SKU-0084",
+        "qty": 2,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000784",
+    "refundedAt": "2023-12-11T21:48:45",
+    "amount": 9000,
+    "currency": "NGN",
+    "reason": "duplicate",
+    "items": [
+      {
+        "sku": "SKU-0098",
+        "qty": 2,
+        "amount": 6500
+      },
+      {
+        "sku": "SKU-0203",
+        "qty": 1,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-001189",
+    "refunded_at": "2023-03-22T14:14:03Z",
+    "refundAmount": 9000,
+    "currencyCode": "NGN",
+    "refund_reason": "customer_request",
+    "refunded_items": [
+      {
+        "sku": "SKU-0020",
+        "qty": 2,
+        "amount": 6500
+      },
+      {
+        "sku": "SKU-0138",
+        "qty": 2,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-001159",
+    "refunded_at": "2023-07-07T07:19:58Z",
+    "refundAmount": 2500,
+    "currencyCode": "NGN",
+    "refund_reason": "customer_request",
+    "refunded_items": [
+      {
+        "sku": "SKU-0154",
+        "qty": 2,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "order": "ORD-000146",
+    "ts": 1692748086,
+    "amt": 25000,
+    "ccy": "NGN",
+    "reason": "damaged",
+    "items_refunded": null
+  },
+  {
+    "order": "ORD-000828",
+    "ts": 1695745033,
+    "amt": 12000,
+    "ccy": "NGN",
+    "reason": "damaged",
+    "items_refunded": null
+  },
+  {
+    "orderRef": "ORD-000860",
+    "refundedAt": "2023-09-17T22:27:42",
+    "amount": 13000,
+    "currency": "NGN",
+    "reason": "damaged",
+    "items": [
+      {
+        "sku": "SKU-0000",
+        "qty": 1,
+        "amount": 6500
+      },
+      {
+        "sku": "SKU-0053",
+        "qty": 1,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-001066",
+    "refunded_at": "2023-11-16T10:34:56Z",
+    "refundAmount": 1500,
+    "currencyCode": "NGN",
+    "refund_reason": "late_delivery",
+    "refunded_items": [
+      {
+        "sku": "SKU-0170",
+        "qty": 1,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "order": "ORD-000700",
+    "ts": 1702940226,
+    "amt": 2500,
+    "ccy": "NGN",
+    "reason": "customer_request",
+    "items_refunded": [
+      {
+        "sku": "SKU-0118",
+        "qty": 2,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000817",
+    "refunded_at": "2023-12-24T03:14:23Z",
+    "refundAmount": 5500,
+    "currencyCode": "NGN",
+    "refund_reason": "damaged",
+    "refunded_items": [
+      {
+        "sku": "SKU-0048",
+        "qty": 1,
+        "amount": 1500
+      },
+      {
+        "sku": "SKU-0157",
+        "qty": 1,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000551",
+    "refundedAt": "2023-09-22T21:19:34",
+    "amount": 4000,
+    "currency": "NGN",
+    "reason": "customer_request",
+    "items": [
+      {
+        "sku": "SKU-0020",
+        "qty": 1,
+        "amount": 1500
+      },
+      {
+        "sku": "SKU-0138",
+        "qty": 1,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000402",
+    "refunded_at": "2023-07-09T15:15:36Z",
+    "refundAmount": 5000,
+    "currencyCode": "NGN",
+    "refund_reason": "late_delivery",
+    "refunded_items": null
+  },
+  {
+    "orderRef": "ORD-000518",
+    "refundedAt": "2023-12-13T21:17:31",
+    "amount": 5500,
+    "currency": "USD",
+    "reason": "customer_request",
+    "items": [
+      {
+        "sku": "SKU-0106",
+        "qty": 2,
+        "amount": 4000
+      },
+      {
+        "sku": "SKU-0169",
+        "qty": 2,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "order": "ORD-001001",
+    "ts": 1691762580,
+    "amt": 3000,
+    "ccy": "NGN",
+    "reason": "duplicate",
+    "items_refunded": [
+      {
+        "sku": "SKU-0107",
+        "qty": 1,
+        "amount": 1500
+      },
+      {
+        "sku": "SKU-0093",
+        "qty": 1,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "order": "ORD-000024",
+    "ts": 1672704532,
+    "amt": 4000,
+    "ccy": "NGN",
+    "reason": "duplicate",
+    "items_refunded": [
+      {
+        "sku": "SKU-0045",
+        "qty": 1,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-001165",
+    "refundedAt": "2023-01-24T01:47:14",
+    "amount": 5000,
+    "currency": "NGN",
+    "reason": "late_delivery",
+    "items": null
+  },
+  {
+    "order": "ORD-000774",
+    "ts": 1695876146,
+    "amt": 4000,
+    "ccy": "USD",
+    "reason": "late_delivery",
+    "items_refunded": [
+      {
+        "sku": "SKU-0006",
+        "qty": 2,
+        "amount": 2500
+      },
+      {
+        "sku": "SKU-0205",
+        "qty": 1,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-001006",
+    "refundedAt": "2023-03-24T10:24:15",
+    "amount": 5500,
+    "currency": "USD",
+    "reason": "customer_request",
+    "items": [
+      {
+        "sku": "SKU-0214",
+        "qty": 2,
+        "amount": 4000
+      },
+      {
+        "sku": "SKU-0189",
+        "qty": 2,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000780",
+    "refundedAt": "2023-11-04T02:07:02",
+    "amount": 2500,
+    "currency": "NGN",
+    "reason": "customer_request",
+    "items": [
+      {
+        "sku": "SKU-0125",
+        "qty": 2,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000524",
+    "refundedAt": "2023-07-31T00:42:19",
+    "amount": 4000,
+    "currency": "NGN",
+    "reason": "late_delivery",
+    "items": [
+      {
+        "sku": "SKU-0206",
+        "qty": 1,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "order": "ORD-001092",
+    "ts": 1674091054,
+    "amt": 18000,
+    "ccy": "NGN",
+    "reason": "customer_request",
+    "items_refunded": null
+  },
+  {
+    "order_id": "ORD-000707",
+    "refunded_at": "2023-04-16T09:51:10Z",
+    "refundAmount": 13000,
+    "currencyCode": "NGN",
+    "refund_reason": "customer_request",
+    "refunded_items": [
+      {
+        "sku": "SKU-0189",
+        "qty": 2,
+        "amount": 6500
+      },
+      {
+        "sku": "SKU-0084",
+        "qty": 2,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "order": "ORD-000462",
+    "ts": 1680078222,
+    "amt": 8000,
+    "ccy": "NGN",
+    "reason": "duplicate",
+    "items_refunded": [
+      {
+        "sku": "SKU-0162",
+        "qty": 2,
+        "amount": 6500
+      },
+      {
+        "sku": "SKU-0150",
+        "qty": 1,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "order": "ORD-000990",
+    "ts": 1682005446,
+    "amt": 5500,
+    "ccy": "NGN",
+    "reason": "duplicate",
+    "items_refunded": [
+      {
+        "sku": "SKU-0041",
+        "qty": 1,
+        "amount": 1500
+      },
+      {
+        "sku": "SKU-0055",
+        "qty": 2,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000397",
+    "refunded_at": "2023-12-07T14:01:05Z",
+    "refundAmount": 1500,
+    "currencyCode": "NGN",
+    "refund_reason": "customer_request",
+    "refunded_items": [
+      {
+        "sku": "SKU-0006",
+        "qty": 2,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000049",
+    "refundedAt": "2023-06-02T11:45:26",
+    "amount": 12000,
+    "currency": "NGN",
+    "reason": "damaged",
+    "items": null
+  },
+  {
+    "order_id": "ORD-000915",
+    "refunded_at": "2023-03-20T13:45:51Z",
+    "refundAmount": 18000,
+    "currencyCode": "NGN",
+    "refund_reason": "damaged",
+    "refunded_items": null
+  },
+  {
+    "order_id": "ORD-000184",
+    "refunded_at": "2023-03-23T20:58:32Z",
+    "refundAmount": 2500,
+    "currencyCode": "NGN",
+    "refund_reason": "customer_request",
+    "refunded_items": [
+      {
+        "sku": "SKU-0120",
+        "qty": 1,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000395",
+    "refunded_at": "2023-07-16T21:11:02Z",
+    "refundAmount": 2500,
+    "currencyCode": "NGN",
+    "refund_reason": "customer_request",
+    "refunded_items": [
+      {
+        "sku": "SKU-0099",
+        "qty": 1,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-001115",
+    "refundedAt": "2023-10-31T23:56:28",
+    "amount": 25000,
+    "currency": "USD",
+    "reason": "customer_request",
+    "items": null
+  },
+  {
+    "order": "ORD-001097",
+    "ts": 1689829278,
+    "amt": 5000,
+    "ccy": "NGN",
+    "reason": "customer_request",
+    "items_refunded": null
+  },
+  {
+    "order_id": "ORD-000341",
+    "refunded_at": "2023-07-15T00:04:29Z",
+    "refundAmount": 4000,
+    "currencyCode": "NGN",
+    "refund_reason": "late_delivery",
+    "refunded_items": [
+      {
+        "sku": "SKU-0015",
+        "qty": 2,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000991",
+    "refundedAt": "2023-02-06T00:32:50",
+    "amount": 8000,
+    "currency": "NGN",
+    "reason": "late_delivery",
+    "items": [
+      {
+        "sku": "SKU-0132",
+        "qty": 1,
+        "amount": 1500
+      },
+      {
+        "sku": "SKU-0027",
+        "qty": 2,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000478",
+    "refunded_at": "2023-02-19T23:31:42Z",
+    "refundAmount": 3000,
+    "currencyCode": "NGN",
+    "refund_reason": "late_delivery",
+    "refunded_items": [
+      {
+        "sku": "SKU-0123",
+        "qty": 2,
+        "amount": 1500
+      },
+      {
+        "sku": "SKU-0051",
+        "qty": 1,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000014",
+    "refunded_at": "2023-07-27T10:28:01Z",
+    "refundAmount": 8000,
+    "currencyCode": "NGN",
+    "refund_reason": "duplicate",
+    "refunded_items": [
+      {
+        "sku": "SKU-0107",
+        "qty": 2,
+        "amount": 1500
+      },
+      {
+        "sku": "SKU-0188",
+        "qty": 2,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "order": "ORD-000717",
+    "ts": 1700713886,
+    "amt": 8000,
+    "ccy": "NGN",
+    "reason": "duplicate",
+    "items_refunded": [
+      {
+        "sku": "SKU-0049",
+        "qty": 2,
+        "amount": 4000
+      },
+      {
+        "sku": "SKU-0162",
+        "qty": 1,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000651",
+    "refunded_at": "2023-06-22T12:47:01Z",
+    "refundAmount": 25000,
+    "currencyCode": "NGN",
+    "refund_reason": "late_delivery",
+    "refunded_items": null
+  },
+  {
+    "orderRef": "ORD-000988",
+    "refundedAt": "2023-09-22T06:51:26",
+    "amount": 18000,
+    "currency": "NGN",
+    "reason": "late_delivery",
+    "items": null
+  },
+  {
+    "orderRef": "ORD-000070",
+    "refundedAt": "2023-10-09T14:49:55",
+    "amount": 1500,
+    "currency": "NGN",
+    "reason": "customer_request",
+    "items": [
+      {
+        "sku": "SKU-0168",
+        "qty": 2,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "order": "ORD-000543",
+    "ts": 1696841306,
+    "amt": 1500,
+    "ccy": "NGN",
+    "reason": "damaged",
+    "items_refunded": [
+      {
+        "sku": "SKU-0173",
+        "qty": 2,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "order": "ORD-000200",
+    "ts": 1692996752,
+    "amt": 9000,
+    "ccy": "NGN",
+    "reason": "duplicate",
+    "items_refunded": null
+  },
+  {
+    "orderRef": "ORD-000458",
+    "refundedAt": "2023-09-10T15:06:01",
+    "amount": 1500,
+    "currency": "USD",
+    "reason": "customer_request",
+    "items": [
+      {
+        "sku": "SKU-0086",
+        "qty": 2,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "order": "ORD-000741",
+    "ts": 1694087970,
+    "amt": 9000,
+    "ccy": "NGN",
+    "reason": "duplicate",
+    "items_refunded": null
+  },
+  {
+    "order_id": "ORD-001035",
+    "refunded_at": "2023-02-05T14:01:01Z",
+    "refundAmount": 1500,
+    "currencyCode": "USD",
+    "refund_reason": "damaged",
+    "refunded_items": [
+      {
+        "sku": "SKU-0111",
+        "qty": 1,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000837",
+    "refunded_at": "2023-01-21T19:18:15Z",
+    "refundAmount": 9000,
+    "currencyCode": "NGN",
+    "refund_reason": "customer_request",
+    "refunded_items": null
+  },
+  {
+    "order": "ORD-001180",
+    "ts": 1674476856,
+    "amt": 4000,
+    "ccy": "NGN",
+    "reason": "duplicate",
+    "items_refunded": [
+      {
+        "sku": "SKU-0067",
+        "qty": 1,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000835",
+    "refundedAt": "2023-05-05T22:45:21",
+    "amount": 6500,
+    "currency": "NGN",
+    "reason": "damaged",
+    "items": [
+      {
+        "sku": "SKU-0113",
+        "qty": 1,
+        "amount": 4000
+      },
+      {
+        "sku": "SKU-0157",
+        "qty": 2,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000534",
+    "refundedAt": "2023-10-01T08:11:22",
+    "amount": 4000,
+    "currency": "NGN",
+    "reason": "duplicate",
+    "items": [
+      {
+        "sku": "SKU-0204",
+        "qty": 2,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "order": "ORD-000043",
+    "ts": 1686190405,
+    "amt": 2500,
+    "ccy": "NGN",
+    "reason": "damaged",
+    "items_refunded": [
+      {
+        "sku": "SKU-0035",
+        "qty": 2,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-001071",
+    "refunded_at": "2023-01-10T09:22:58Z",
+    "refundAmount": 9000,
+    "currencyCode": "USD",
+    "refund_reason": "damaged",
+    "refunded_items": null
+  },
+  {
+    "order_id": "ORD-000214",
+    "refunded_at": "2023-09-18T23:39:29Z",
+    "refundAmount": 4000,
+    "currencyCode": "NGN",
+    "refund_reason": "damaged",
+    "refunded_items": [
+      {
+        "sku": "SKU-0142",
+        "qty": 2,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-001078",
+    "refundedAt": "2023-05-27T15:44:22",
+    "amount": 2500,
+    "currency": "NGN",
+    "reason": "damaged",
+    "items": [
+      {
+        "sku": "SKU-0057",
+        "qty": 1,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-001068",
+    "refundedAt": "2023-02-20T17:36:07",
+    "amount": 25000,
+    "currency": "USD",
+    "reason": "late_delivery",
+    "items": null
+  },
+  {
+    "order_id": "ORD-000806",
+    "refunded_at": "2023-03-28T13:57:38Z",
+    "refundAmount": 4000,
+    "currencyCode": "NGN",
+    "refund_reason": "damaged",
+    "refunded_items": [
+      {
+        "sku": "SKU-0159",
+        "qty": 2,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000958",
+    "refunded_at": "2023-05-13T11:03:30Z",
+    "refundAmount": 9000,
+    "currencyCode": "NGN",
+    "refund_reason": "damaged",
+    "refunded_items": null
+  },
+  {
+    "order": "ORD-000822",
+    "ts": 1685990365,
+    "amt": 1500,
+    "ccy": "NGN",
+    "reason": "late_delivery",
+    "items_refunded": [
+      {
+        "sku": "SKU-0105",
+        "qty": 1,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000760",
+    "refundedAt": "2023-06-29T04:19:35",
+    "amount": 4000,
+    "currency": "NGN",
+    "reason": "damaged",
+    "items": [
+      {
+        "sku": "SKU-0161",
+        "qty": 2,
+        "amount": 4000
+      }
+    ]
+  },
+  {
+    "orderRef": "ORD-000931",
+    "refundedAt": "2023-10-04T09:27:19",
+    "amount": 5000,
+    "currency": "NGN",
+    "reason": "damaged",
+    "items": null
+  },
+  {
+    "order_id": "ORD-000901",
+    "refunded_at": "2023-09-23T05:33:28Z",
+    "refundAmount": 6500,
+    "currencyCode": "NGN",
+    "refund_reason": "damaged",
+    "refunded_items": [
+      {
+        "sku": "SKU-0124",
+        "qty": 2,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-001096",
+    "refunded_at": "2023-07-21T00:54:48Z",
+    "refundAmount": 6500,
+    "currencyCode": "NGN",
+    "refund_reason": "late_delivery",
+    "refunded_items": [
+      {
+        "sku": "SKU-0030",
+        "qty": 1,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000096",
+    "refunded_at": "2023-07-28T01:47:01Z",
+    "refundAmount": 25000,
+    "currencyCode": "NGN",
+    "refund_reason": "damaged",
+    "refunded_items": null
+  },
+  {
+    "orderRef": "ORD-001108",
+    "refundedAt": "2023-09-05T11:11:11",
+    "amount": 12000,
+    "currency": "NGN",
+    "reason": "damaged",
+    "items": null
+  },
+  {
+    "order_id": "ORD-000260",
+    "refunded_at": "2023-11-17T19:53:44Z",
+    "refundAmount": 25000,
+    "currencyCode": "NGN",
+    "refund_reason": "customer_request",
+    "refunded_items": null
+  },
+  {
+    "orderRef": "ORD-000793",
+    "refundedAt": "2023-09-15T14:57:30",
+    "amount": 6500,
+    "currency": "NGN",
+    "reason": "late_delivery",
+    "items": [
+      {
+        "sku": "SKU-0079",
+        "qty": 1,
+        "amount": 6500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-000723",
+    "refunded_at": "2023-06-08T05:05:36Z",
+    "refundAmount": 1500,
+    "currencyCode": "NGN",
+    "refund_reason": "customer_request",
+    "refunded_items": [
+      {
+        "sku": "SKU-0165",
+        "qty": 1,
+        "amount": 1500
+      }
+    ]
+  },
+  {
+    "order": "ORD-000600",
+    "ts": 1698565268,
+    "amt": 2500,
+    "ccy": "NGN",
+    "reason": "damaged",
+    "items_refunded": [
+      {
+        "sku": "SKU-0161",
+        "qty": 1,
+        "amount": 2500
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-001065",
+    "refunded_at": "2023-04-20T09:55:18Z",
+    "refundAmount": 5000,
+    "currencyCode": "NGN",
+    "refund_reason": "customer_request",
+    "refunded_items": null
+  }
+]
