@@ -1,0 +1,146 @@
+============================================================
+  CommercePulse — Daily Data Quality Report
+  Generated: 2026-02-23 14:09:37 UTC
+============================================================
+
+[1] Orders with missing amounts
+    → 1028 orders have no amount recorded
+    ⚠ WARNING: These orders will be excluded from revenue calculations
+
+[2] Orders with missing customer emails
+    → 1075 orders have no customer email
+    ⚠ WARNING: Likely from historical batch exports — customers unidentifiable
+
+[3] Payment success rate by vendor
+  vendor  total_payments  successful  success_rate_pct
+ unknown            1104         828              75.0
+vendor_a             212         212             100.0
+vendor_b             226         226             100.0
+vendor_c             187         187             100.0
+    ✓ All vendors have acceptable payment success rates
+
+[4] Orders with no payment record
+    → 538 orders have no payment record
+    ⚠ WARNING: These orders were never paid or payment data is missing
+
+[5] Payments with no matching order
+    → 54 payments reference an order that doesn't exist
+    ⚠ WARNING: Possible late-arriving orders or data loss
+
+[6] Late arriving refunds (>7 days after order)
+    → 56 refunds arrived more than 7 days after the order
+    ⚠ WARNING: Late refunds may cause revenue to be overstated on original date
+
+[7] Duplicate event IDs in MongoDB raw store
+    → Total events: 5480 | Unique: 5480 | Duplicates: 0
+    ✓ No duplicate event IDs in raw store
+
+[8] Days with zero gross revenue
+    → 91 days have zero or null revenue
+order_date  total_orders  gross_revenue
+2023-01-03             2            0.0
+2023-01-08             1            0.0
+2023-01-13             2            0.0
+2023-01-16             2            0.0
+2023-01-17             3            0.0
+2023-01-21             1            0.0
+2023-01-25             1            0.0
+2023-01-28             2            0.0
+2023-01-31             1            0.0
+2023-02-01             2            0.0
+2023-02-09             2            0.0
+2023-02-10             1            0.0
+2023-02-12             1            0.0
+2023-02-16             1            0.0
+2023-02-21             1            0.0
+2023-03-11             1            0.0
+2023-03-12             1            0.0
+2023-03-14             1            0.0
+2023-03-15             2            0.0
+2023-03-22             2            0.0
+2023-03-25             1            0.0
+2023-03-26             1            0.0
+2023-04-06             1            0.0
+2023-04-08             1            0.0
+2023-04-18             1            0.0
+2023-05-01             2            0.0
+2023-05-02             2            0.0
+2023-05-04             3            0.0
+2023-05-11             1            0.0
+2023-05-15             1            0.0
+2023-05-21             1            0.0
+2023-05-27             1            0.0
+2023-05-30             1            0.0
+2023-06-07             1            0.0
+2023-06-08             1            0.0
+2023-06-10             3            0.0
+2023-06-15             1            0.0
+2023-06-19             1            0.0
+2023-06-24             2            0.0
+2023-06-27             1            0.0
+2023-07-09             1            0.0
+2023-07-10             1            0.0
+2023-07-11             2            0.0
+2023-07-12             2            0.0
+2023-07-14             2            0.0
+2023-07-21             1            0.0
+2023-07-24             2            0.0
+2023-08-03             2            0.0
+2023-08-05             2            0.0
+2023-08-08             1            0.0
+2023-08-10             2            0.0
+2023-08-15             1            0.0
+2023-08-30             1            0.0
+2023-08-31             2            0.0
+2023-09-01             1            0.0
+2023-09-02             1            0.0
+2023-09-03             3            0.0
+2023-09-09             4            0.0
+2023-09-11             1            0.0
+2023-09-12             1            0.0
+2023-09-21             2            0.0
+2023-09-22             1            0.0
+2023-09-27             1            0.0
+2023-09-28             5            0.0
+2023-10-02             2            0.0
+2023-10-11             1            0.0
+2023-10-12             1            0.0
+2023-10-18             2            0.0
+2023-10-21             3            0.0
+2023-10-29             2            0.0
+2023-11-01             1            0.0
+2023-11-04             1            0.0
+2023-11-05             1            0.0
+2023-11-09             2            0.0
+2023-11-11             2            0.0
+2023-11-13             1            0.0
+2023-11-18             1            0.0
+2023-11-20             1            0.0
+2023-11-22             1            0.0
+2023-12-04             3            0.0
+2023-12-07             2            0.0
+2023-12-08             1            0.0
+2023-12-15             1            0.0
+2023-12-17             1            0.0
+2023-12-23             2            0.0
+2023-12-28             2            0.0
+2023-12-30             2            0.0
+2023-12-31             1            0.0
+2026-02-16             1            0.0
+2026-02-20             1            0.0
+       NaT           394            0.0
+    ⚠ WARNING: These days may have missing amount data
+
+[9] Average time from order creation to payment
+    → Average time from order to successful payment: -82.96 hours
+    ✓ Payment time is within acceptable range
+
+[10] Overall refund rate
+ total_orders  refunded_orders  refund_rate_pct
+         1509              368            24.39
+    ⚠ WARNING: Refund rate of 24.39% exceeds acceptable threshold of 20%
+
+============================================================
+  Report Complete — 7 issue(s) flagged
+  Report saved to: reports\dq_report_2026-02-23.txt
+============================================================
