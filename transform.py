@@ -134,7 +134,7 @@ def get_shipping_address(payload):
     # Try simple address string first
     if shipping.get("address"):
         return shipping["address"]
-    # Try structured address — combine line1 and city
+    # If not found, try to construct from line1 + city
     line1 = shipping.get("line1", "")
     city = shipping.get("city", "")
     combined = f"{line1} {city}".strip()
@@ -150,7 +150,7 @@ def get_latest_shipment_status(payload):
     history = payload.get("updates") or payload.get("timeline") or []
     if not history:
         return None, None
-    # Last entry in the array is the most recent
+
     latest = history[-1]
     return latest.get("status"), parse_timestamp(latest.get("time"))
 
@@ -313,7 +313,7 @@ fact_shipments = fact_shipments.dropna(subset=["order_id"])
 fact_orders = fact_orders.sort_values("order_time")
 fact_orders = fact_orders.drop_duplicates(
     subset=["order_id"],
-    keep="last"  # keep most recent version of each order
+    keep="last" # keep the most recent record for each order_id
 )
 
 print(f"\nClean records after normalization and deduplication:")
@@ -322,7 +322,7 @@ print(f"  Payments:  {len(fact_payments)}")
 print(f"  Refunds:   {len(fact_refunds)}")
 print(f"  Shipments: {len(fact_shipments)}")
 
-# Sanity check — these numbers confirm data quality
+# Quick sanity check on revenue numbers before we load into BigQuery
 print(f"\nUnique orders:  {fact_orders['order_id'].nunique()}")
 print(f"Total revenue:  {fact_orders['amount'].sum():,.2f} NGN")
 
