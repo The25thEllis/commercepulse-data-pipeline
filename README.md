@@ -38,13 +38,13 @@ commercepulse\_data\_pack/
 
 ├── data/
 
-│   ├── bootstrap/          # Historical JSON exports (2023)
+│   ├── bootstrap/              # Historical JSON exports (2023)
 
-│   └── live\_events/        # Daily live event files (.jsonl)
+│   └── live\_events/            # Daily live event files (.jsonl)
 
-├── reports/                # Daily data quality reports
+├── reports/                    # Daily data quality reports
 
-├── sql/                    # Analytics queries
+├── sql/                        # Analytics queries
 
 │   └── analytics\_queries.sql
 
@@ -52,15 +52,21 @@ commercepulse\_data\_pack/
 
 │   ├── bootstrap\_loader.py     # Loads historical data into MongoDB
 
+│   ├── live\_event\_generator.py # Generates fake live events
+
 │   ├── live\_event\_loader.py    # Loads live events into MongoDB
 
-│   ├── transform.py            # Normalizes and transforms data
+│   ├── transform.py            # Normalizes and previews data (debug)
 
-│   ├── bq\_loader.py            # Loads clean data into BigQuery
+│   ├── bq\_loader.py            # Transforms and loads data into BigQuery
 
-│   └── data\_quality\_report.py  # Daily data quality checks
+│   ├── data\_quality\_report.py  # Runs daily data quality checks
 
-├── .env                    # Environment variables (not committed)
+│   ├── test\_bq\_connection.py   # Tests BigQuery connection
+
+│   └── test\_mongo.py           # Tests MongoDB connection
+
+├── .env                        # Environment variables (not committed)
 
 ├── .gitignore
 
@@ -184,7 +190,17 @@ python src/live\_event\_loader.py
 
 
 
-\### Step 3 — Transform and Load into BigQuery
+\### Step 3 — Preview Transformations (Optional)
+
+```
+
+python src/transform.py
+
+```
+
+
+
+\### Step 4 — Transform and Load into BigQuery
 
 ```
 
@@ -194,7 +210,7 @@ python src/bq\_loader.py
 
 
 
-\### Step 4 — Run Daily Data Quality Report
+\### Step 5 — Run Daily Data Quality Report
 
 ```
 
@@ -240,11 +256,37 @@ Reports are saved to `reports/dq\_report\_YYYY-MM-DD.txt`
 
 
 
+\## Analytics Queries
+
+
+
+Six required business queries are in `sql/analytics\_queries.sql`:
+
+
+
+1\. Daily gross vs net revenue
+
+2\. Payment success rate by vendor
+
+3\. Average time from order creation to payment
+
+4\. Refund rate and partial refunds
+
+5\. Percentage of late-arriving events
+
+6\. Top vendors by revenue
+
+
+
+---
+
+
+
 \## Data Quality Checks
 
 
 
-The daily report (`src/data\_quality\_report.py`) checks for:
+The daily report (`src/data\_quality\_report.py`) automatically checks for:
 
 
 
